@@ -25,10 +25,19 @@
                         e.handled = true;
                     } else if (e.type === 'swipeleft') {
                         $.mobile.navigate('#camera-page', {
-                            transition: 'slide'
+                            transition: 'flip'
                         });
                     }
                 }
+            }
+            e.preventDefault();
+        });
+
+        $(document).on('swiperight', '#camera-page', function (e) {
+            if (!e.handled) {
+                $.mobile.navigate('#home-page', {
+                    transition: 'flip'
+                });
             }
             e.preventDefault();
         });

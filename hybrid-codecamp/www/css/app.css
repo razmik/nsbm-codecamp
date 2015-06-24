@@ -1,6 +1,15 @@
 body {
     text-transform: none !important;
 }
+/*General*/
+/*
+For page transition to be smooth.
+https://demos.jquerymobile.com/1.2.0/docs/pages/page-transitions.html
+*/
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
 /*Splash Screen*/
 
 .event.listening {
