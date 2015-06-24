@@ -9,8 +9,8 @@
                     password = document.querySelector('#login-password').value;
                 if (username === 'admin' && password === 'pass@123') {
                     $.mobile.navigate('#home-page');
-                }else{
-                    $('#login-error-popup').popup('open');                    
+                } else {
+                    $('#login-error-popup').popup('open');
                 }
                 e.handled = true;
             }
@@ -23,6 +23,10 @@
                     if (e.type === 'swiperight') {
                         $('#left-panel').panel('open');
                         e.handled = true;
+                    } else if (e.type === 'swipeleft') {
+                        $.mobile.navigate('#camera-page', {
+                            transition: 'slide'
+                        });
                     }
                 }
             }
