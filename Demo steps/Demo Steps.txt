@@ -1,0 +1,6 @@
+Environment Setup:
+https://cordova.apache.org/docs/en/4.0.0/guide_platforms_android_index.md.html
+
+My Guide - https://github.com/razmik/nsbm-codecamp/wiki/Hybrid-Mobile-App-Development---Getting-Started-Guide
+
+1. Create the app using cordova create
