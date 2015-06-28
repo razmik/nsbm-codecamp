@@ -3,4 +3,40 @@ https://cordova.apache.org/docs/en/4.0.0/guide_platforms_android_index.md.html
 
 My Guide - https://github.com/razmik/nsbm-codecamp/wiki/Hybrid-Mobile-App-Development---Getting-Started-Guide
 
-1. Create the app using cordova create
+1. Create the app using cordova create. Add android platform. Update the config file.
+	Explain the code structure. (index.html, js, css)
+	Special mention about device ready events.
+	Copy the corodva.js file to www folder.
+	Demo.
+
+2. Development Resources
+	jQuery Mobile API
+		Events
+		Widgets
+	jQM Demos
+	 
+3. Add splash screen and login screen with jQM
+	Add basic screen layouts.
+	Add navigation.
+
+4. Implement Screens
+	Home page. Add images. Add Popups widget.
+	Left swipe menu. List widget.
+	Camera page. Camera icons.
+	
+5. Plugins
+	Cordova plugin registry.
+	Add camera plugin. Add plugin code and go through plugin API.
+	
+6. Build
+	Build the app.
+	Add the apk to mobile and test.
+	
+7. Deploy
+	Create keystore file.
+	Tell the importance of keystore file.
+	cordova build android --release
+	Test with mobile phone.
+	Publish to GooglePlay.
+	
+8. Same app in ionic.
