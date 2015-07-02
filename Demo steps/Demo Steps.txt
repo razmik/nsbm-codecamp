@@ -12,10 +12,8 @@ My Guide - https://github.com/razmik/nsbm-codecamp/wiki/Hybrid-Mobile-App-Develo
 	Demo.
 
 2. Development Resources
-	jQuery Mobile API - https://api.jquerymobile.com
-		Events
-		Widgets
 	jQM Demos - http://jquerymobile.com/demos/
+	jQuery Mobile API - https://api.jquerymobile.com
 	 
 3. Structuring
 	3.1 Create initial structure of the app
